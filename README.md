@@ -35,30 +35,13 @@ Clone the repository and open `index.html` in a modern browser to run the projec
 - `script.js`: Logic for data handling and display
 - `multiProduct.json`: External JSON with product data
 
-### Sample JSON Structure
-
-```json
-{
-  "categories": [
-    {
-      "category_name": "Men",
-      "category_products": [
-        // Product objects array
-      ]
-    },
-    // Additional categories...
-  ]
-}
-
--------------------------------
-
-Usage
+- Usage
 Select tabs labeled Men, Women, or Kids to view products. Hover on product images for alternate views.
 
 Contributors
-Rahul Chandra - Initial work
+[Rahul Chandra](https://github.com/rahul-chandra30) - Initial work
 Acknowledgments
 Thanks to Font Awesome for the icons.
 Gratitude to Shopify CDN for the JSON product data hosting.
 Deployment
-This project is deployed and accessible at rc-marmento.netlify.app.
+This project is deployed and accessible at [rc-marmento.netlify.app](rc-marmento.netlify.app)
