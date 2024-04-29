@@ -1,41 +1,41 @@
 # Marmento_Assignment
 
-# Product Catalog
+## Product Catalog
 
-This project is a dynamic web application that allows users to browse through a product catalogue categorized into Men, Women, and Kids sections.
+This dynamic web application allows users to effortlessly navigate through a product catalogue sorted into Men's, Women's, and Kids' sections.
 
-## Description
+### Description
 
-The application features a tabbed interface where users can select between the different categories to display relevant products. The product information, including images, titles, vendors, and prices, is dynamically loaded from a JSON file. Additionally, users can view the discount on products and switch between the main and alternate product images.
+Leveraging a tabbed interface, this app presents selectable categories that dynamically display pertinent products. Information such as images, titles, vendors, and prices is fetched from a JSON file. Features include viewing discounts, switching between primary and alternate product images, and title truncation.
 
-## Features
+### Features
 
-- Tabbed navigation for different product categories
-- Dynamic product card generation
-- Image hover effect to display an alternate product image
-- Automatic calculation of discount percentage
-- Truncation of long product titles with ellipsis
+- Tab-based navigation for product categories
+- Dynamically generated product cards
+- Image hover effects for alternate views
+- Auto-calculated discount percentages
+- Ellipsis for extended product titles
 
-## Technologies Used
+### Technologies Used
 
 - HTML5
-- CSS3 (with responsive design)
-- JavaScript (ES6)
-- Font Awesome for icons
-- Fetch API for loading JSON data
+- CSS3 with Responsive Design
+- JavaScript ES6
+- Font Awesome Icons
+- Fetch API for data retrieval
 
-## Setup
+### Setup
 
-To run this project, clone the repository, and open `index.html` in a modern web browser.
+Clone the repository and open `index.html` in a modern browser to run the project.
 
-## Files Included
+### Files
 
-- `index.html` - The main HTML document with the structure for the catalogue.
-- `style.css` - The stylesheet containing all the styles for the application.
-- `script.js` - The JavaScript file that contains the logic for loading and displaying product data.
-- `multiProduct.json` - A JSON file hosted externally that contains all the product data.
+- `index.html`: Structure of the catalogue
+- `style.css`: All styling aspects
+- `script.js`: Logic for data handling and display
+- `multiProduct.json`: External JSON with product data
 
-## Sample JSON Data Structure
+### Sample JSON Structure
 
 ```json
 {
@@ -43,9 +43,22 @@ To run this project, clone the repository, and open `index.html` in a modern web
     {
       "category_name": "Men",
       "category_products": [
-        // Array of product objects
+        // Product objects array
       ]
     },
-    // Other categories...
+    // Additional categories...
   ]
 }
+
+-------------------------------
+
+Usage
+Select tabs labeled Men, Women, or Kids to view products. Hover on product images for alternate views.
+
+Contributors
+Rahul Chandra - Initial work
+Acknowledgments
+Thanks to Font Awesome for the icons.
+Gratitude to Shopify CDN for the JSON product data hosting.
+Deployment
+This project is deployed and accessible at rc-marmento.netlify.app.
