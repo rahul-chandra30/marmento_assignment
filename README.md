@@ -44,4 +44,4 @@ Acknowledgments
 Thanks to Font Awesome for the icons.
 Gratitude to Shopify CDN for the JSON product data hosting.
 Deployment
-This project is deployed and accessible at [rc-marmento.netlify.app](rc-marmento.netlify.app)
+This project is deployed and accessible at [rc-marmento.netlify.app](https://rc-marmento.netlify.app/)
